@@ -1,0 +1,117 @@
+body{
+  background-color: #e7e7e7;
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+}
+
+.contain{
+  width: 40%;
+  margin: auto;
+}
+
+.container-fluid{
+  box-shadow: 9px 15px 13px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.heading{
+  background: #e36d09;
+  color: #fff;
+  padding: 3px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form{
+  background-color: #fff;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.row .form-group{
+  width: 49%;
+}
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-control {
+  display: block;
+  width: 96%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.row .form-control{
+  width: 92%;
+}
+
+.d-flex{    
+  display: flex;
+}
+
+.btn{
+  border: none;
+  border-left: 0;
+  color: #fff;
+  font-size: 1rem;
+  padding: 7px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-success
+{
+  background-color: #e36d09;
+}
+
+.btn-danger{
+  background-color: rgba(255, 0, 0, 0.774);
+}
+
+a{
+  text-decoration: none;
+  color: #495057;
+}
+
+.dashboard-container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logout-btn{
+  background: none;
+  border: 0;
+  outline: none;
+  color: #e36d09;
+  cursor: pointer;
+}
+
+.logout-btn:hover,.logout-btn:focus,.logout-btn:active{
+  color: #bd5800;
+  text-decoration: underline;
+}
